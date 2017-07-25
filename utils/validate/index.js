@@ -1,15 +1,7 @@
-var chalk = require('chalk');
-
-function validate() {
-  var valid = false;
-
-  if ( process.argv[2] && process.argv[3] ){
-    valid = true;
-  }
-
-  return valid;
+function isNumber(n){
+  return isNaN(n) ? NaN : n;
 }
 
 module.exports = {
-  validateInput: validate
+  isNumber: isNumber
 };
