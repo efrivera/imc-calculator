@@ -30,4 +30,4 @@ Crear una aplicación que calcule el índice de masa corporal (IMC).
 * Utilizar la librería [Chalk](https://www.npmjs.com/package/chalk) para escribir el color de la clasificación
 * La información del usuario autenticado puede ser obtenida de `process.ENV`.
 
-More info: [Zemoga NodeJS Training](https://bitbucket.org/zemoga/zem-nodejs-training/wiki/browse/)
+[Ejercicio Siguiente >](https://github.com/efrivera/IMC-calculator-4)
